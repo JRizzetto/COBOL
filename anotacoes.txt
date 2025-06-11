@@ -1,0 +1,45 @@
+ESTRUTURA:
+
+      ******************************************************************
+      * Author: 
+      * Date: 
+      * Porpose: 
+      *          
+      * Tectonics: cobc
+      ******************************************************************
+       
+       IDENTIFICATION DIVISION. 
+       PROGRAM-ID. YOUR-PROGRAM.
+       DATA DIVISION.
+       FILE SECTION.
+       WORKING-STORAGE SECTION. 
+       PROCEDURE DIVISION.
+            DISPLAY "Hello World"
+            STOP RUN.
+       END PROGRAM YOUR-PROGRAM.
+
+***********************************************************************
+ESTRUTURA PARA USAR COM VIRGULA:
+       
+       IDENTIFICATION DIVISION. 
+       PROGRAM-ID. YOUR-PROGRAM.
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+       SPECIAL-NAMES.
+       DECIMAL-POINT IS COMMA.
+       DATA DIVISION.
+       FILE SECTION.
+       WORKING-STORAGE SECTION. 
+       PROCEDURE DIVISION.
+            DISPLAY "Hello World"
+            STOP RUN.
+       END PROGRAM YOUR-PROGRAM.
+
+
+
+PALAVRAS RESERVADAS: 
+
+DISPLAY > Printa no console
+ACCEPT > Interação com usuário 
+COMPUTE > Permite montar qualquer equação
+PERFORM > Executa os comendos de um parágrafo
